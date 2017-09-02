@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/price_per_kilometer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:layout_alignRight="@+id/etPrice"
+        android:layout_alignEnd="@+id/etPrice"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ksh"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/etPrice"
+        android:layout_alignStart="@+id/etPrice" />
+
+    <EditText
+        android:id="@+id/etPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/textView5"
+        android:layout_alignLeft="@+id/bSubmitPrice"
+        android:layout_alignStart="@+id/bSubmitPrice"
+        android:layout_alignRight="@+id/bSubmitPrice"
+        android:layout_alignEnd="@+id/bSubmitPrice" />
+
+    <Button
+        android:id="@+id/bSubmitPrice"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_below="@+id/etLocality"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etPrice"
+        android:layout_alignStart="@+id/etPrice"
+        android:layout_below="@+id/etPrice"
+        android:layout_marginTop="38dp"
+        android:text="Locality (Town)" />
+
+    <EditText
+        android:id="@+id/etLocality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/bSubmitPrice"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignRight="@+id/bSubmitPrice"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Locality (Town)"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

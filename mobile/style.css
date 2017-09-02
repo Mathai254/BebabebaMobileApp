@@ -1,0 +1,277 @@
+/*
+    designed by WebTemplateOcean.com
+    http://www.webtemplateocean.com/
+    released under Creative Commons Attribution-ShareAlike 3.0 license
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 16px Georgia, Times, serif;
+    color: #0C0C0C;
+    background: #FFFFFF;
+}
+
+h1, h2, h3{
+    font-weight: normal;
+}
+
+h1 {
+    float: left;
+    padding: 20px 0 0 10px;
+    font-size: 56px;
+    line-height: 70px;
+    color: #FFC014;
+}
+h3 {
+    /*float: left;*/
+    padding: 20px 0 0 10px;
+    font-size: 30px;
+    /*line-height: 70px;*/
+    color: white;
+}
+
+h1 a, h1 a:hover {
+    color: #FFC014;
+    text-decoration: none;
+}
+
+p {
+    padding: .75em 0;
+    line-height: 1.67em;
+    text-align: justify;
+}
+
+p#subtitle {
+    float: right;
+    padding: 50px 10px 0 0;
+    font-size: 24px;
+    line-height: 30px;
+    color: #F8EEE4;
+}
+
+a {
+    text-decoration: none;
+    color: #4276BC;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* header */
+
+#header {
+    width: 100%;
+    min-width: 960px;
+    background: #191919;
+}
+
+#header2 {
+    width: 960px;
+    height: 450px;
+    margin: 0 auto;
+    background: #191919 url('images/image.jpg') no-repeat bottom;
+}
+
+/* menu */
+
+#menu {
+    width: 100%;
+    min-width: 960px;
+    background: #191919;
+}
+
+#menu2 {
+    width: 960px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    display: block;
+    float: left;
+    margin-right: 2px;
+    padding-top: 20px;
+}
+
+#menu ul li a {
+    display: block;
+    float: left;
+    height: 50px;
+    padding: 0 8px 0 0;
+    font: 18px/44px Arial, Helvetica, sans-serif;
+    color: #CCCCCC;
+    background: #191919;
+}
+
+#menu ul li a span {
+    display: block;
+    float: left;
+    height: 50px;
+    padding: 0 20px 0 30px;
+    cursor: pointer;
+}
+
+#menu ul li a:hover, #menu ul li.active a {
+    text-decoration: none;
+    color: #000000;
+    background: #FFFFFF url('images/menu.gif') no-repeat right;
+}
+
+#menu ul li a:hover span, #menu ul li.active a span {
+    background: #FFFFFF url('images/menu2.gif') no-repeat left;
+}
+
+/* main */
+
+#main {
+    clear: both;
+    width: 960px;
+    margin: auto 0 0 400px;
+}
+
+/* content */
+
+#content {
+    float: left;
+    width: 560px;
+    padding: 50px 0 10px 10px;
+}
+
+#content .post {
+    padding: 0 0 4.5em 0;
+}
+
+#content h2 {
+    font-size: 2.5em;
+    color: #000000;
+}
+
+#content h2 a {
+    color: #000000;
+    text-decoration: none;
+}
+
+p.postmeta {
+    margin-top: .75em;
+    padding: 0 0 0 10px;
+    line-height: 36px;
+    color: #868686;
+    background: #EFEFEF url('images/postmeta.gif');
+}
+
+#content .entry {
+    padding: 1.5em 0 0 0;
+}
+
+p.postmeta2 {
+    padding-top: 1.5em;
+    height: 1.2em;
+}
+
+p.postmeta2 span.readmore {
+    float: left;
+}
+
+p.postmeta2 span.comments {
+    float: right;
+}
+
+/* sidebar */
+
+#sidebar {
+    float: right;
+    width: 320px;
+    padding: 50px 10px 20px 0;
+}
+
+#sidebar h2 {
+    padding-left: 20px;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    color: #988142;
+    background: none;
+}
+
+#sidebar .box {
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    background: #191919 url('images/box.gif') no-repeat bottom;
+}
+
+#sidebar .box h2 {
+    line-height: 80px;
+    color: #FFD970;
+    background: #000000 url('images/h2.gif') no-repeat top;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: .5em 20px;
+}
+
+#sidebar ul li {
+    padding: .2em 0;
+    line-height: 2.5em;
+    border-bottom: 1px solid #2E2E2E;
+}
+
+#sidebar ul li a {
+    display: block;
+    padding: 0 0 0 22px;
+    color: #CBE1FF;
+    background: url('images/li.gif') no-repeat 0 .9em;
+}
+
+#sidebar .box2 {
+    padding-bottom: 60px;
+    background: none;
+}
+
+#sidebar .box3 {
+    padding: 1.5em 20px 0 20px;
+}
+
+#sidebar p {
+    text-align: left;
+}
+
+/* footer */
+
+#footer {
+    width: 100%;
+    min-width: 960px;
+    background: #191919;
+}
+
+#footer2 {
+    clear: both;
+    width: 960px;
+    margin: 0 auto;
+    padding: 50px 0 100px 0;
+}
+
+#footer p {
+    font-size: .875em;
+    text-align: center;
+    color: #7C7C7C;
+}
+
+#footer a {
+    color: #CBB474;
+}
+
+.clearing {
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+}
+

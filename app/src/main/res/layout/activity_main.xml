@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="268dp"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/background"
+        android:layout_weight="0.11" />
+
+    <TextView
+        android:text="Login or Register as a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvWelcomeMsg"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_weight="0.14"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="Driver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bDriver"
+        android:layout_weight="0.26" />
+
+    <Button
+        android:text="Passenger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bPassenger"
+        tools:layout_margin="2dp"
+        android:layout_weight="0.25" />
+
+</LinearLayout>

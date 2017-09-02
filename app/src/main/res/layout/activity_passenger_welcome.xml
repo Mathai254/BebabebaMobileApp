@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_passenger_welcome"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+tools:context="com.example.bebabeba.PassengerWelcomeActivity">
+
+<TextView
+    android:text="Welcome Message"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvWelcomeMsg"
+    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+
+<TextView
+    android:text="Email Address"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/tvWelcomeMsg"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="16dp"
+    android:id="@+id/textView2" />
+
+<TextView
+    android:text="Email Address"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView2"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="12dp"
+    android:id="@+id/tvLocality"
+    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+
+    <TextView
+    android:text="Phone Number"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+    android:id="@+id/textView13"
+        android:layout_below="@+id/tvLocality"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+<TextView
+    android:text="Phone Number"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvPhoneNumber"
+    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+    android:layout_marginTop="20dp"
+    android:layout_below="@+id/textView13"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/bProceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/bUpdate"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="Book" />
+
+<Button
+    android:id="@+id/bUpdate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="EDIT"
+    android:layout_marginTop="26dp"
+    android:layout_marginLeft="25dp"
+    android:layout_marginStart="25dp"
+    android:layout_below="@+id/tvPhoneNumber"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/bViewBookings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:text="View Bookings"
+        android:layout_below="@+id/bUpdate"
+        android:layout_toLeftOf="@+id/bProceed"
+        android:layout_toStartOf="@+id/bProceed" />
+</RelativeLayout>
